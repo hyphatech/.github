@@ -2,8 +2,8 @@
 
 ## Hypha Stack
 
-The components a backend is built from, designed together: one way to
-model data, effects and failure across all of them. Open source, MIT.
+**Components made to fit together.** Designed from the ground up for agents
+and people to build software that matters. Open source, MIT.
 
 | | | |
 |---|---|---|
