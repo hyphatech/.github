@@ -19,25 +19,17 @@ has none of its own; there are none today.
 ## Rules that must hold
 
 - **The page shows the open components and nothing else of Hypha.** It
-  names each public library and what it provides, in the site's words,
-  and no closed part of Hypha and no private project. Why: the page is
-  the open core's front door, and anything it says of the rest is a
-  promise it cannot link to. Symptom: a name in the README that no
-  public repository of the organisation, nor the site, carries.
-- **It says of a library only what the site says of it.** A library
-  added, renamed or described anew on hyphatech.io/stack is changed here
-  in the same breath. Why: two front pages that disagree make both look
-  stale. Symptom: a row claiming something its card on the site's
-  `/stack` page does not.
+  names each public library and what it provides, and no closed part of
+  Hypha and no private project. Why: the page is the open core's front
+  door, and anything it says of the rest is a promise it cannot link to.
+  Symptom: a name in the README that no public repository of the
+  organisation, nor the site, carries.
+- **A library's row is its tagline, word for word.** Each row's
+  description is the library's tagline in the registry,
+  [[hypha-hq:repositories/map.md#the-registry]], and changes when that
+  line does; its capability is the one it provides on hyphatech.io/stack.
+  Why: a description told several ways is told wrong in all but one.
+  Symptom: a row that differs from its library's README's second line.
 - **The banner is the site's social card.** When the site's
   `public/og.jpg` changes, `profile/banner.jpg` is copied from it. Why:
   the tagline is set once, in the site's type.
-
-## Git
-
-How work becomes a commit -- its format, where it happens, what is pushed
--- is [GIT.md](GIT.md), the same in every Hypha repository and changed in
-all of them together, never in one. It is imported here, so it is read
-with this file:
-
-@GIT.md
