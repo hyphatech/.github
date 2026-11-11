@@ -3,7 +3,7 @@
 ## Hypha Stack
 
 **Components made to fit together.** Designed from the ground up for agents
-and people to build software that matters. Open source, MIT.
+and people to build software that matters.
 
 | | | |
 |---|---|---|
