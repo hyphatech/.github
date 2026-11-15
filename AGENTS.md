@@ -16,6 +16,12 @@ A `CONTRIBUTING.md`, `SECURITY.md` or issue template at this repository's
 root would become the default of every repository in the organisation that
 has none of its own; there are none today.
 
+## Changes
+
+Work lands on `main` directly, without a pull request: a worktree is
+squashed onto the local `main`, and its owner pushes `main`, which
+publishes it.
+
 ## Rules that must hold
 
 - **The page shows the open components and nothing else of Hypha.** It
@@ -25,9 +31,9 @@ has none of its own; there are none today.
   Symptom: a name in the README that no public repository of the
   organisation, nor the site, carries.
 - **A library's row is its tagline, word for word.** Each row's
-  description is the library's tagline in the registry,
-  [[hypha-hq:repositories/map.md#the-registry]], and changes when that
-  line does; its capability is the one it provides on hyphatech.io/stack.
+  description is the library's tagline, the second line of its README,
+  and changes when that line does; its capability is the one it provides
+  on hyphatech.io/stack.
   Why: a description told several ways is told wrong in all but one.
   Symptom: a row that differs from its library's README's second line.
 - **The banner is the site's social card.** When the site's
