@@ -2,8 +2,8 @@
 
 ## Hypha Stack
 
-**Components made to fit together.** Designed from the ground up for agents
-and people to build software that matters.
+**Components made to fit together.** Designed from the ground up
+to build software that lasts.
 
 | | | |
 |---|---|---|
